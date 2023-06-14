@@ -17,6 +17,8 @@
 		92BA5CC52A3806A10085540C /* WeatherApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5CC42A3806A10085540C /* WeatherApplicationTests.swift */; };
 		92BA5CCF2A3806A10085540C /* WeatherApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5CCE2A3806A10085540C /* WeatherApplicationUITests.swift */; };
 		92BA5CD12A3806A10085540C /* WeatherApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5CD02A3806A10085540C /* WeatherApplicationUITestsLaunchTests.swift */; };
+		92BA5CDE2A3807870085540C /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5CDD2A3807870085540C /* WeatherModel.swift */; };
+		92BA5CE22A380CC30085540C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA5CE12A380CC30085540C /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		92BA5CCA2A3806A10085540C /* WeatherApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BA5CCE2A3806A10085540C /* WeatherApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApplicationUITests.swift; sourceTree = "<group>"; };
 		92BA5CD02A3806A10085540C /* WeatherApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92BA5CDD2A3807870085540C /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		92BA5CE12A380CC30085540C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				92BA5CAA2A38069E0085540C /* AppDelegate.swift */,
 				92BA5CAC2A38069E0085540C /* SceneDelegate.swift */,
 				92BA5CAE2A38069E0085540C /* ViewController.swift */,
+				92BA5CDD2A3807870085540C /* WeatherModel.swift */,
+				92BA5CE12A380CC30085540C /* ResultViewController.swift */,
 				92BA5CB02A38069E0085540C /* Main.storyboard */,
 				92BA5CB62A3806A10085540C /* Assets.xcassets */,
 				92BA5CB82A3806A10085540C /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 				92BA5CAB2A38069E0085540C /* AppDelegate.swift in Sources */,
 				92BA5CAD2A38069E0085540C /* SceneDelegate.swift in Sources */,
 				92BA5CB52A38069E0085540C /* WeatherApplication.xcdatamodeld in Sources */,
+				92BA5CDE2A3807870085540C /* WeatherModel.swift in Sources */,
+				92BA5CE22A380CC30085540C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
